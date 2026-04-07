@@ -28,4 +28,14 @@ int main()
     cout<<"Bilangan acak= "<<x<<endl;
     cout<<endl;
     
+    //Perulangan dengan DO-WHILE
+    cout<<"Perulangan DO-WHILE"<<endl;
+    x = 1 + rand()%10;
+    do
+    {
+        cout<<"Bilangan acak: "<<x<<endl;
+        x = rand()%10;
+    }while(x<=5);
+    cout<<"Bilangan acak= "<<x<<endl;
+    cout<<endl;
 }
